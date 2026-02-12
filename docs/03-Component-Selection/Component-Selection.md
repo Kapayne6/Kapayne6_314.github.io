@@ -10,7 +10,7 @@ The following sections are the selected major components necessary for the drill
 
 1. LM2575T-3.3G switching regulator
 
-   ![](image here)
+   ![](3.3V_1.png)
 
    * $2.50 each
    * [link to product](https://www.digikey.com/en/products/detail/onsemi/LM2575T-3-3G/1476700)
@@ -23,7 +23,7 @@ The following sections are the selected major components necessary for the drill
 
 2. BD9859EFJ-E2 switching regulator
 
-   ![](image here)
+   ![](3.3V_2.png)
 
    * $0.60 each
    * [link to product](https://www.digikey.com/en/products/detail/rohm-semiconductor/BD9859EFJ-E2/4625605?s=N4IgjCBcoKwOwGYqgMZQGYEMA2BnApgDQgD2UA2iAJxwAsADEgLrEAOALlCAMrsBOASwB2AcxABfYmFpwI0EGkhY8RUhRAAmWlTCyQLEBy69BoiZJAxkhqGDasoGmOPFA)
@@ -36,7 +36,7 @@ The following sections are the selected major components necessary for the drill
 
 3. TPS61021ADSGR switching regulator
 
-   ![](image here)
+   ![](3.3V_3.png)
 
    * $1.38 each
    * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/TPS61021ADSGR/6123255)
@@ -54,7 +54,7 @@ The following sections are the selected major components necessary for the drill
 
 1. IFX9201SGAUMA1
 
-    ![](image here)
+    ![](Motor_Driver_1.png)
 
     * $3.55/each
     * [link to product](https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542)
@@ -67,7 +67,7 @@ The following sections are the selected major components necessary for the drill
 
 2. AP1013CEN
 
-    ![](image here)
+    ![](Motor_Driver_2.png)
 
     * $0.88/each
     * [link to product](https://www.digikey.com/en/products/detail/asahi-kasei-microdevices-akm/AP1013CEN/5182224)
@@ -80,7 +80,7 @@ The following sections are the selected major components necessary for the drill
 
 3. A3909GLYTR-T
 
-    ![](image here)
+    ![](Motor_Driver_3.png)
 
     * $1.43/each
     * [link to product](https://www.digikey.com/en/products/detail/allegro-microsystems/A3909GLYTR-T/3979656)
@@ -98,7 +98,7 @@ The following sections are the selected major components necessary for the drill
 
 1. FIT0278
 
-    ![](image here)
+    ![](Motor_1.png)
 
     * $13.95/each
     * [link to product](https://www.digikey.com/en/products/detail/dfrobot/FIT0278/6588458)
@@ -111,7 +111,7 @@ The following sections are the selected major components necessary for the drill
 
 2. 108990003
 
-    ![](image here)
+    ![](Motor_2.png)
 
     * $4.50/each
     * [link to product](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/108990003/5487797)
@@ -124,7 +124,7 @@ The following sections are the selected major components necessary for the drill
 
 3. 324
 
-    ![](image here)
+    ![](Motor_3.png)
 
     * $14.00/each
     * [link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/324/5022791)
