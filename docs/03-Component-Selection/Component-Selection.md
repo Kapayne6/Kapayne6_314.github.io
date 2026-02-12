@@ -4,62 +4,135 @@ title: Module's Selected Major Components
 
 ## Module's Selected Major Components
 
-The following sections are the selected major components necessary for  .....
-
->**For each of the following sections, use <ins>one of the two styles</ins> given near the end. *REMOVE THIS NOTE***
+The following sections are the selected major components necessary for the drilling module I am designing for the teams rover.
 
 ### Power Management
 
-(**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} **THAT WERE SELECTED**)
+1. LM2575T-3.3G switching regulator
 
-For more details, review the ["Appendix - Component Selection Process - Power Mangement"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management) selection.
+   ![](image here)
 
-### Sensor
+   * $2.50 each
+   * [link to product](https://www.digikey.com/en/products/detail/onsemi/LM2575T-3-3G/1476700)
+  
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Inexpensive                               | Multiple pins required for operation                             |
+    | Already have experince using this part    | Easy to break                                                    |
+    | Supplied in class                         |                                                                  |
 
-(**remove this note/placeholder**: if applicable, this is where your  **SELECTED** sensor is shown. Otherwise, remove this section.)
+2. BD9859EFJ-E2 switching regulator
 
-For more details, review the ["Appendix - Component Selection Process - Sensor"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#sensor) selection.
+   ![](image here)
 
-### Actuator
+   * $0.60 each
+   * [link to product](https://www.digikey.com/en/products/detail/rohm-semiconductor/BD9859EFJ-E2/4625605?s=N4IgjCBcoKwOwGYqgMZQGYEMA2BnApgDQgD2UA2iAJxwAsADEgLrEAOALlCAMrsBOASwB2AcxABfYmFpwI0EGkhY8RUhRAAmWlTCyQLEBy69BoiZJAxkhqGDasoGmOPFA)
+  
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Inexpensive                               | Difficult to surface mount                                       |
+    | Small size                                | Unideal Tolerances                                               |
+    |                                           |                                                                  |
 
-(**remove this note/placeholder**: if applicable, this is where your **Selected** the actuator items go, which includes both the driver and motor. Otherwise, remove this section.)
+3. TPS61021ADSGR switching regulator
 
-For more details, review the ["Appendix - Component Selection Process - Actuator"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#actuator) selection.
+   ![](image here)
 
------------
-> Remove the following before submitting! Use them to present the selected components
+   * $1.38 each
+   * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/TPS61021ADSGR/6123255)
+  
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Good Brand                                | Difficult to surface mount                                       |
+    | Small size                                | slightly below target voltage                                    |
+    | adjustable output                         |                                                                  |
 
-### Style 1
+   
+**Rationale** The LM2575T-3.3G switching regulator is my choice as its inexpensive and easy to replace. I have used it in labs and found it to be reliable when compared to other parts and meets class criteria.
 
-> This is the example found in the assignment, uses more html
+**Motor Driver's**
 
-*Table 1: Example component selection*
+1. IFX9201SGAUMA1
 
-**External Clock Module**
+    ![](image here)
 
-| **Component**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-
-**Rationale:** A clock oscillator is easier ....
-
-### Style 2
-
-> Also acceptable, more markdown friendly
-
-**External Clock Module**
-
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * $3.55/each
+    * [link to product](https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
+    | Already Owned and Soldered                | Requires external components and support circuitry for interface |
+    | Compatible with PSoC                      | requires more than 3.3V                                          |
     | Meets surface mount constraint of project |
 
-**Rationale:** A clock oscillator is easier ...
+2. AP1013CEN
+
+    ![](image here)
+
+    * $0.88/each
+    * [link to product](https://www.digikey.com/en/products/detail/asahi-kasei-microdevices-akm/AP1013CEN/5182224)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Very inexpensive                          | Unsure of reliability                                            |
+    | Small size                                | Lacks ESP32 Compatibility                                        |
+    |                                           | difficult pin layout                                             |
+
+3. A3909GLYTR-T
+
+    ![](image here)
+
+    * $1.43/each
+    * [link to product](https://www.digikey.com/en/products/detail/allegro-microsystems/A3909GLYTR-T/3979656)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | simple design                             | Unsure of reliability                                            |
+    | easy to replace                           | Lacks ESP32 Compatibility                                        |
+    | Similar to ones used in class             |                                                                  |
+
+**Rationale:** The IFX9201SGAUMA1 is my choice as I have hands on experince using it in labs, as well as already having soldered it. This part is also confirmed to be compatible with our other resources.
+
+
+**Motor's**
+
+1. FIT0278
+
+    ![](image here)
+
+    * $13.95/each
+    * [link to product](https://www.digikey.com/en/products/detail/dfrobot/FIT0278/6588458)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Simple connections                        | expensive                                                        |
+    | operates on 3.3V                          | slow speed                                                       |
+    | Very accurate                             |                                                                  |
+
+2. 108990003
+
+    ![](image here)
+
+    * $4.50/each
+    * [link to product](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/108990003/5487797)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Simple connections                        | needs 5V                                                         |
+    | inexpensive                               | too small for current plans                                      |
+    |                                           | low torque                                                       |
+
+3. 324
+
+    ![](image here)
+
+    * $14.00/each
+    * [link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/324/5022791)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Simple connections                        | needs 12V                                                        |
+    | Reliable                                  | Heavy                                                            |
+    | high torque                               |                                                                  |
+
+
