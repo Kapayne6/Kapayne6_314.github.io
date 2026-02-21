@@ -4,11 +4,11 @@ title: Module Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic is design to support a drilling rig on a rover as well as a mechanical arm to reposition the drill.
 
 
 ![schematic](Screenshot.png){style width:"350" height:"300;"}
-**Figure ##:** Showing a example schematic.
+**Figure 01:** Showing REV#1 of the schematic.
 
 
 ## Resouces
