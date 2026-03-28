@@ -87,6 +87,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#individual-api" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -723,6 +728,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    API
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -732,6 +748,32 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#individual-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Individual API
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -819,6 +861,23 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#individual-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Individual API
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -834,6 +893,45 @@
 
   <h1>API</h1>
 
+<h2 id="individual-api">Individual API</h2>
+<table>
+<thead>
+<tr>
+<th><strong>API</strong></th>
+<th><strong>Byte #1</strong></th>
+<th><strong>Byte #2</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variable Name</td>
+<td>Motor Start</td>
+<td>Sensor Start</td>
+</tr>
+<tr>
+<td>Variable Type</td>
+<td>uint8_t</td>
+<td>uint8_t</td>
+</tr>
+<tr>
+<td>Min Value</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max Value</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>Our teams message structure is simple as our goal is to communicate starting and stopping actions at the individual level using 1's and 0's. We will only send a signal of a 1 or a 0 to a teammate once it is their turn in the order to begin their operation, and all other actions
+will be halted until the individual completes their task.</p>
 
 
 
@@ -841,6 +939,8 @@
 
 
 
+  
+  
 
 
 
