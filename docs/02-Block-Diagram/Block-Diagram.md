@@ -17,4 +17,4 @@ teams situation as we are still discussing how we want to connect with each othe
 
 ## Example Block Diagram 
 
-![Example of Indivial Block diagram ](Individual_Block_Diagram_314_1.png)
+![Example of Indivial Block diagram ](Individual_Block_Diagram_314_4.png)
