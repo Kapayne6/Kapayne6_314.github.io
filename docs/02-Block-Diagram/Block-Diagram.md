@@ -15,6 +15,9 @@ teams situation as we are still discussing how we want to connect with each othe
 * Our team will connect via wifi and ribbon cables.
 * We plan on utilizing an on board battery power bank.
 
-## Example Block Diagram 
+## My Role
+My block diagram fits my role within my team structure as I am capable of recieving and transmitting information via the upstream and downstream headers. These signals are processed within the central PIC chip which then instructs the motor driver to power my DC motor. This motor will actuate clockwise and counter clockwise while attached to a drill bit to meet my teams actuation requirement.
+
+## Block Diagram 
 
 ![Example of Indivial Block diagram ](Individual_Block_Diagram_314_4.png)
