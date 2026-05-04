@@ -6,7 +6,8 @@ tags:
 ---
 
 ## Overview
-Written context needs to added!
+Below is my Bill of Materials placed at ASU for order. Many of my components such as the PIC and motor driver were supplied and available in class.
+Spools of resistors and capacitors were also avaliable so only items I did not have direct access too were ordered.
 
 
 ## Bill of Materials
