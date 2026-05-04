@@ -136,3 +136,12 @@ The following sections are the selected major components necessary for the drill
     | high torque                               |                                                                  |
 
 
+## Final Components Selected
+   | Selected Part                             | Reasoning                                                          |
+   | ----------------------------------------- | ------------------------------------------------------------------ |
+   | PIC18F57Q83T-I/PTCT-ND (Microcontroller)  | Readily available within class and familiar with necessry software |
+   | IFX9201SGAUMA1CT-ND (Motor Driver)        | Small reliable motor driver capable of actuating my single motor   |
+   | LM2575T-3.3GOS-ND (Switching Regulator)   | Met the necessary 3.3V output while taking up to 14V               |
+   | MOTOR-F201210                             | 0.6-6V motor allowed for more voltage variance                     |
+
+   ![](MCC_Table.png)
